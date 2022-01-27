@@ -1,0 +1,1 @@
+Start-Process -FilePath "pandoc.exe" -ArgumentList "-f markdown -t latex --number-sections --data-dir `"$env:Pandoc_Datadir`" --template eisvogel --pdf-engine=xelatex -V colorlinks --listings -o `"lorem-ipsum.pdf`" `"lorem-ipsum.md`" -F $env:Pandoc_Datadir\pandoc-filter\pandoc_plantuml_filter.py -F pandoc-latex-environment" -NoNewWindow -Wait
