@@ -10,6 +10,7 @@ in handling PDF creation with Pandoc among different setups.
 - Python Pandoc filters
     - https://github.com/chdemko/pandoc-latex-environment
     - https://github.com/timofurrer/pandoc-plantuml-filter
+- PlantUML (requires Java)
 - Windows 10 or 11
 - PowerShell 5 or higher (for using PS scripts)
 - VS Code incl. Pandoc and Markdown extensions
